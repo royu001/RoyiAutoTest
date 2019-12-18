@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>表单工作面板</description>
+   <name>pl_formSpace</name>
+   <tag></tag>
+   <elementGuidId>f00b5bca-7544-4b5c-914f-4c57c165d892</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[text()='拖拽左侧表单元素到此区域']/../../div[2]/div/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h5[text()='拖拽左侧表单元素到此区域']/../../div[2]/div/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

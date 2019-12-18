@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>部门管理</description>
+   <name>tbtn_divisionalManage</name>
+   <tag></tag>
+   <elementGuidId>311f47e4-6d01-4d85-8b31-20f1bfa17878</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li/a[normalize-space(text())='部门管理']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li/a[normalize-space(text())='部门管理']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>新增用户按钮</description>
+   <name>btn_addUser</name>
+   <tag></tag>
+   <elementGuidId>c8c70026-ec4c-4034-a7ca-3bd094928142</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[normalize-space(.)='新增']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[normalize-space(.)='新增']</value>
+   </webElementProperties>
+</WebElementEntity>

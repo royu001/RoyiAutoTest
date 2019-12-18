@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>当前用户中心</description>
+   <name>tbtn_activeUser</name>
+   <tag></tag>
+   <elementGuidId>5dddc49a-2f82-4b57-b574-98e36d60af93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='若依']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='若依']</value>
+   </webElementProperties>
+</WebElementEntity>

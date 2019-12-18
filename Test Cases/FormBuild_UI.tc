@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>表单构建测试用例</description>
+   <name>FormBuild_UI</name>
+   <tag>表单构建</tag>
+   <comment></comment>
+   <testCaseGuid>e572dcd8-b015-43fb-a4cb-e73898730048</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>部门树窗口</description>
+   <name>iframe_postTree</name>
+   <tag></tag>
+   <elementGuidId>52ae3b08-1ff6-4ce8-9758-f9c04bfc1aea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@scrolling=&quot;auto&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[@scrolling=&quot;auto&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

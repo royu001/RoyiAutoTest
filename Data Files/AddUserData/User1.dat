@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>用户1参数</description>
+   <name>User1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>eb2d23c8-e54d-42d3-ac67-98a648fc9373</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%E6%B5%8B%E8%AF%95001 13601234567 test001 test001%40xyxt.com 123456 %E5%B0%8F%E9%B9%B0%E5%AD%A6%E5%A0%82%E4%B9%8BUI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>phonenum</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>loginname</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>email</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>password</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>remark</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

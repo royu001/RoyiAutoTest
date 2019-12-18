@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddUser_Test" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="AddUser_Test" tests="2" failures="0" errors="0" time="19" timestamp="2019-12-18 20:10:28" hostname="luoyu - LY_Computer" id="Test Suites/AddUser_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\KSworkspace\\RuoyiAutoTest\\Reports\\AddUser_Test\\20191218_201026"/>
+         <property name="logFiles" value="E:\\KSworkspace\\RuoyiAutoTest\\Reports\\AddUser_Test\\20191218_201026\\execution0.log"/>
+         <property name="attachments" value="E:\\KSworkspace\\RuoyiAutoTest\\Reports\\AddUser_Test\\20191218_201026\\SuccessMessage.jpg"/>
+         <property name="hostName" value="luoyu - LY_Computer"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.92"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="1a66cc3e1f095e9ea68ff488ff54c4d8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ClearUserTable_DB" classname="Test Cases/ClearUserTable_DB" status="PASSED">
+         <system-out><![CDATA[2019-12-18 20:10:28 - [TEST_CASE][PASSED] - Test Cases/ClearUserTable_DB: Test Cases/ClearUserTable_DB
+
+2019-12-18 20:10:29 - [TEST_STEP][PASSED] - mysql.DB.DBconnect(G_dbUrl, G_dbUser, G_dbPassword): mysql.DB.DBconnect is PASSED
+
+2019-12-18 20:10:29 - [MESSAGE][PASSED] - mysql.DB.DBconnect is PASSED
+
+2019-12-18 20:10:30 - [TEST_STEP][PASSED] - mysql.DB.executeSql_Core("delete from sys_user where login_name='test001'"): mysql.DB.executeSql_Core is PASSED
+
+2019-12-18 20:10:30 - [MESSAGE][PASSED] - mysql.DB.executeSql_Core is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddUser_UI" classname="Test Cases/AddUser_UI" status="PASSED">
+         <system-out><![CDATA[2019-12-18 20:10:30 - [TEST_CASE][PASSED] - Test Cases/AddUser_UI: Test Cases/AddUser_UI
+
+2019-12-18 20:10:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login_UI"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login_UI' successfully
+
+2019-12-18 20:10:30 - [TEST_CASE][PASSED] - Test Cases/Login_UI: Test Cases/Login_UI
+
+2019-12-18 20:10:30 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'http://127.0.0.1/login'
+
+2019-12-18 20:10:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-18 20:10:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-18 20:10:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://127.0.0.1/login'
+
+2019-12-18 20:10:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-18 20:10:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-18 20:10:35 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/btn_login")): Object: 'Object Repository/LoginPage/btn_login' is clicked on
+
+2019-12-18 20:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/btn_login' is clicked on
+
+2019-12-18 20:10:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-18 20:10:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-18 20:10:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login_UI' successfully
+
+2019-12-18 20:10:37 - [TEST_STEP][PASSED] - click(findTestObject("IndexMenuPage/tbtn_systemManage")): Object: 'Object Repository/IndexMenuPage/tbtn_systemManage' is clicked on
+
+2019-12-18 20:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IndexMenuPage/tbtn_systemManage' is clicked on
+
+2019-12-18 20:10:37 - [TEST_STEP][PASSED] - click(findTestObject("IndexMenuPage/tbtn_userManage")): Object: 'Object Repository/IndexMenuPage/tbtn_userManage' is clicked on
+
+2019-12-18 20:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/IndexMenuPage/tbtn_userManage' is clicked on
+
+2019-12-18 20:10:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-18 20:10:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-18 20:10:39 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("UserManagePase/iframe_divisonalManage"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:39 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/tbtn_selectDepartment")): Object: 'Object Repository/UserManagePase/tbtn_selectDepartment' is clicked on
+
+2019-12-18 20:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/tbtn_selectDepartment' is clicked on
+
+2019-12-18 20:10:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-18 20:10:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-18 20:10:40 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/btn_addUser")): Object: 'Object Repository/UserManagePase/btn_addUser' is clicked on
+
+2019-12-18 20:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/btn_addUser' is clicked on
+
+2019-12-18 20:10:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-18 20:10:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-18 20:10:41 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-12-18 20:10:41 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("UserManagePase/AddUserPage/iframe_addUser"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_userName"), findTestData("AddUserData/User1").getValue(1, 1)): Keys '测试001' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userName'
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - Keys '测试001' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userName'
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_phoneNumber"), findTestData("AddUserData/User1").getValue(2, 1)): Keys '13601234567' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_phoneNumber'
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - Keys '13601234567' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_phoneNumber'
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_loginName"), findTestData("AddUserData/User1").getValue(3, 1)): Keys 'test001' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_loginName'
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - Keys 'test001' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_loginName'
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UserManagePase/AddUserPage/dbtn_userSex"), "1", false): All options with value '1' are selected in object 'Object Repository/UserManagePase/AddUserPage/dbtn_userSex' 
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/UserManagePase/AddUserPage/dbtn_userSex' 
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("UserManagePase/AddUserPage/dbtn_userPost"), "普通员工", false): All options with label '普通员工' are selected in object 'Object Repository/UserManagePase/AddUserPage/dbtn_userPost' 
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - All options with label '普通员工' are selected in object 'Object Repository/UserManagePase/AddUserPage/dbtn_userPost' 
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - check(findTestObject("UserManagePase/AddUserPage/cbtn_userRole")): Object 'Object Repository/UserManagePase/AddUserPage/cbtn_userRole' is checked
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/UserManagePase/AddUserPage/cbtn_userRole' is checked
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/AddUserPage/tbox_deptName")): Object: 'Object Repository/UserManagePase/AddUserPage/tbox_deptName' is clicked on
+
+2019-12-18 20:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/AddUserPage/tbox_deptName' is clicked on
+
+2019-12-18 20:10:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-18 20:10:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-18 20:10:43 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("UserManagePase/AddUserPage/iframe_postTree"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:44 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/AddUserPage/tbtn_selectPost")): Object: 'Object Repository/UserManagePase/AddUserPage/tbtn_selectPost' is clicked on
+
+2019-12-18 20:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/AddUserPage/tbtn_selectPost' is clicked on
+
+2019-12-18 20:10:44 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-12-18 20:10:44 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("UserManagePase/AddUserPage/iframe_addUser"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/AddUserPage/btn_okPost")): Object: 'Object Repository/UserManagePase/AddUserPage/btn_okPost' is clicked on
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/AddUserPage/btn_okPost' is clicked on
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_userEmail"), findTestData("AddUserData/User1").getValue(4, 1)): Keys 'test001@xyxt.com' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userEmail'
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Keys 'test001@xyxt.com' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userEmail'
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - clearText(findTestObject("UserManagePase/AddUserPage/tbox_userPass")): Text of object 'Object Repository/UserManagePase/AddUserPage/tbox_userPass' is cleared
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/UserManagePase/AddUserPage/tbox_userPass' is cleared
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_userPass"), findTestData("AddUserData/User1").getValue(5, 1)): Keys '123456' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userPass'
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userPass'
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UserManagePase/AddUserPage/tbox_userRemark"), findTestData("AddUserData/User1").getValue(6, 1)): Keys '小鹰学堂之UI自动化测试' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userRemark'
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Keys '小鹰学堂之UI自动化测试' sent to object: 'Object Repository/UserManagePase/AddUserPage/tbox_userRemark'
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - click(findTestObject("UserManagePase/AddUserPage/btn_userSave")): Object: 'Object Repository/UserManagePase/AddUserPage/btn_userSave' is clicked on
+
+2019-12-18 20:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UserManagePase/AddUserPage/btn_userSave' is clicked on
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("UserManagePase/iframe_userManage"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-18 20:10:45 - [TEST_STEP][PASSED] - takeScreenshot("SuccessMessage.jpg", STOP_ON_FAILURE): Taking screenshot successfully
+
+2019-12-18 20:10:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\KSworkspace\\RuoyiAutoTest\\Reports\\AddUser_Test\\20191218_201026\\SuccessMessage.jpg]]
+
+2019-12-18 20:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Logout_UI"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Logout_UI' successfully
+
+2019-12-18 20:10:46 - [TEST_CASE][PASSED] - Test Cases/Logout_UI: Test Cases/Logout_UI
+
+2019-12-18 20:10:46 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-12-18 20:10:46 - [TEST_STEP][PASSED] - click(findTestObject("IndexMenuPage/tbtn_activeUser")): Object: 'Object Repository/IndexMenuPage/tbtn_activeUser' is clicked on
+
+2019-12-18 20:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IndexMenuPage/tbtn_activeUser' is clicked on
+
+2019-12-18 20:10:46 - [TEST_STEP][PASSED] - click(findTestObject("IndexMenuPage/tbtn_logout")): Object: 'Object Repository/IndexMenuPage/tbtn_logout' is clicked on
+
+2019-12-18 20:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IndexMenuPage/tbtn_logout' is clicked on
+
+2019-12-18 20:10:46 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-18 20:10:47 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-18 20:10:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Logout_UI' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-18 20:10:28 - [TEST_SUITE][PASSED] - AddUser_Test: Test Cases/AddUser_UI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

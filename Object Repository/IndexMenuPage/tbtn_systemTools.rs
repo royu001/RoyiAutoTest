@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>系统工具菜单</description>
+   <name>tbtn_systemTools</name>
+   <tag></tag>
+   <elementGuidId>5cc25a30-3e37-4ddd-8f22-36d27fd7b845</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[normalize-space(text())='系统工具']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[normalize-space(text())='系统工具']</value>
+   </webElementProperties>
+</WebElementEntity>

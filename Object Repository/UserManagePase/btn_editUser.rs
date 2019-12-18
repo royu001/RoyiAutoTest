@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>单一用户的编辑按钮</description>
+   <name>btn_editUser</name>
+   <tag></tag>
+   <elementGuidId>088b1c9b-39e5-4020-88d5-438d47d8d147</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[normalize-space(text())='test']/../td/a[normalize-space(.)='编辑']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[normalize-space(text())='test']/../td/a[normalize-space(.)='编辑']</value>
+   </webElementProperties>
+</WebElementEntity>

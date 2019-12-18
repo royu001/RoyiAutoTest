@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>选择组织机构</description>
+   <name>tbtn_selectDepartment</name>
+   <tag></tag>
+   <elementGuidId>90d6c44c-601e-449b-a8ed-9d621788877c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[normalize-space(text())='测试部门']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[normalize-space(text())='测试部门']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>通知公告</description>
+   <name>tbtn_notice</name>
+   <tag></tag>
+   <elementGuidId>a019388a-04f7-4c3d-8266-11d7fc727a6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li/a[normalize-space(text())='通知公告']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li/a[normalize-space(text())='通知公告']</value>
+   </webElementProperties>
+</WebElementEntity>

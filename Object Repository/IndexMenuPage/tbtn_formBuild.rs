@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>表单构建菜单</description>
+   <name>tbtn_formBuild</name>
+   <tag></tag>
+   <elementGuidId>81b21cce-ddd8-409d-b063-3af7b4e1c188</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li/a[normalize-space(text())='表单构建']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li/a[normalize-space(text())='表单构建']</value>
+   </webElementProperties>
+</WebElementEntity>

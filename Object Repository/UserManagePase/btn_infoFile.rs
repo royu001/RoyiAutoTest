@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>导入按钮</description>
+   <name>btn_infoFile</name>
+   <tag></tag>
+   <elementGuidId>851cc352-4a63-4421-87e2-54e15f77d76f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[normalize-space(.)='导入']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[normalize-space(.)='导入']</value>
+   </webElementProperties>
+</WebElementEntity>

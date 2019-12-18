@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>文本框</description>
+   <name>tbox_richBox</name>
+   <tag></tag>
+   <elementGuidId>38b9a3c2-ba42-4642-993e-4defb08c61a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[normalize-space(text())='多行文本框：']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[normalize-space(text())='多行文本框：']</value>
+   </webElementProperties>
+</WebElementEntity>

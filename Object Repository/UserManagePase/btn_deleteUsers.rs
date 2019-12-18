@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>删除选定用户按钮</description>
+   <name>btn_deleteUsers</name>
+   <tag></tag>
+   <elementGuidId>608add5b-96df-4f79-ac29-151ed2693ddd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[normalize-space(.)='删除']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[normalize-space(.)='删除']</value>
+   </webElementProperties>
+</WebElementEntity>

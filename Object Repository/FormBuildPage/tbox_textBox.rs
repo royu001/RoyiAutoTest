@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>文本框</description>
+   <name>tbox_textBox</name>
+   <tag></tag>
+   <elementGuidId>dbddc756-704b-4d29-b696-217570ab1296</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[normalize-space(text())='文本框：']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[normalize-space(text())='文本框：']</value>
+   </webElementProperties>
+</WebElementEntity>

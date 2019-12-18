@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jdbc:mysql://localhost:3306/ry'</initValue>
+      <name>G_dbUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'root'</initValue>
+      <name>G_dbUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>G_dbPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://127.0.0.1/login'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

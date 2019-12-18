@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>用户管理菜单</description>
+   <name>tbtn_userManage</name>
+   <tag></tag>
+   <elementGuidId>0039e735-8f5b-4143-8217-51e36dfa2466</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li/a[normalize-space(text())='用户管理']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li/a[normalize-space(text())='用户管理']</value>
+   </webElementProperties>
+</WebElementEntity>

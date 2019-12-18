@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>字典管理</description>
+   <name>tbtn_dictionaryManage</name>
+   <tag></tag>
+   <elementGuidId>aba9a6a9-063d-4931-839e-756006f787c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li/a[normalize-space(text())='参数设置']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li/a[normalize-space(text())='参数设置']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>新增用户界面框架</description>
+   <name>iframe_addUser</name>
+   <tag></tag>
+   <elementGuidId>d3501f96-ea46-4a65-af66-a08216adf04d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@data-id='/system/user/add']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[@data-id='/system/user/add']</value>
+   </webElementProperties>
+</WebElementEntity>

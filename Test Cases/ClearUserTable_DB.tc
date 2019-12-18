@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>清除数据库中自动化生成的用户信息</description>
+   <name>ClearUserTable_DB</name>
+   <tag>清库</tag>
+   <comment></comment>
+   <testCaseGuid>12192090-1f58-4171-bd64-a4e1cd304438</testCaseGuid>
+</TestCaseEntity>

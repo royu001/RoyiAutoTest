@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>退出系统</description>
+   <name>Logout_UI</name>
+   <tag>退出登录</tag>
+   <comment></comment>
+   <testCaseGuid>3cc369b5-883a-490d-b0e0-37e7c9ebe1d7</testCaseGuid>
+</TestCaseEntity>
